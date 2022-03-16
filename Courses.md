@@ -1,0 +1,2 @@
+- [Learn Flask for Python - Full Tutorial](https://youtu.be/Z1RJmh_OqeA)
+- [PosgresSQL Course](https://youtube.com/playlist?list=PLwvrYc43l1MxAEOI_KwGe8l42uJxMoKeS)
