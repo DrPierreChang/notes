@@ -1024,3 +1024,18 @@ SELECT DISTINCT country_of_birth FROM person;
 SELECT * FROM person
 WHERE gender = 'Female' AND
       (country_of_birth = 'Thailand' OR country_of_birth = 'Vietnam')
+
+SELECT * FROM person
+ORDER BY first_name DESC
+LIMIT 11;
+
+SELECT * FROM person
+OFFSET 6 LIMIT 2;
+
+SELECT * FROM person
+OFFSET 5 FETCH FIRST 5 ROW ONLY;
+
+SELECT * FROM person
+WHERE country_of_birth IN ('China', 'Brazil')
+AND gender = 'Female'
+ORDER BY first_name DESC;
