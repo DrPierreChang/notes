@@ -67,7 +67,7 @@ my_regex = regex.compile("[0-9]+", regex.I)
 
 # In[ ]:
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 
 # In[11]:
@@ -81,7 +81,7 @@ my_counter = Counter()
 
 match = 10
 from re import *   # в модуле re есть функция match
-print match        # "<function re.match>"
+print(match)       # "<function re.match>"
 
 
 # ### Арифметические операции

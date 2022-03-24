@@ -1039,3 +1039,18 @@ SELECT * FROM person
 WHERE country_of_birth IN ('China', 'Brazil')
 AND gender = 'Female'
 ORDER BY first_name DESC;
+
+SELECT * FROM person
+WHERE date_of_birth
+BETWEEN DATE '2021-10-11' AND '2021-10-13'
+ORDER BY date_of_birth DESC;
+
+SELECT * FROM person
+WHERE last_name LIKE '%ins';
+
+SELECT * FROM person
+WHERE last_name LIKE '___';
+
+SELECT * FROM person
+WHERE person.country_of_birth ILIKE 'z%';
+
