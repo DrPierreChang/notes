@@ -1054,3 +1054,12 @@ WHERE last_name LIKE '___';
 SELECT * FROM person
 WHERE person.country_of_birth ILIKE 'z%';
 
+
+SELECT DISTINCT country_of_birth from person;
+
+SELECT country_of_birth from person
+GROUP BY  country_of_birth;
+
+SELECT country_of_birth, COUNT(*) from person
+GROUP BY  country_of_birth
+ORDER BY country_of_birth;
